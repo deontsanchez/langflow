@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import type { To } from "react-router-dom";
 import { CustomBanner } from "@/customization/components/custom-banner";
 import { useCustomNavigate } from "@/customization/hooks/use-custom-navigate";
@@ -21,6 +22,7 @@ export default function PageLayout({
   backTo?: To;
 }) {
   const navigate = useCustomNavigate();
+  const { t } = useTranslation();
 
   return (
     <div className="flex w-full flex-1 flex-col justify-between overflow-auto overflow-x-hidden bg-background">
@@ -37,7 +39,7 @@ export default function PageLayout({
                       navigate(backTo);
                     }}
                     data-testid="back_page_button"
-                    aria-label="Back"
+                    aria-label={t("stepper.back")}
                   >
                     <ForwardedIconComponent
                       name="ChevronLeft"
