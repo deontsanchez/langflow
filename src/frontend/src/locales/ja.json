@@ -932,6 +932,7 @@
   "input.searchGlobalVariables": "グローバル変数を検索...",
   "input.searchOptions": "検索オプション...",
   "input.selectActions": "アクションの選択",
+  "input.selectOption": "入力オプションを選択",
   "input.titleErrorUpdatingComponent": "コンポーネントの更新中にエラーが発生しました",
   "input.toolsetPlaceholder": "道具として使われる",
   "input.typeKey": "キーを入力してください...",
@@ -1371,6 +1372,7 @@
   "modal.io.builtWithLangflowTooltip": "Langflowで構築",
   "modal.io.defaultSession": "デフォルトのセッション",
   "modal.io.hideSidebar": "サイドバーを非表示にする",
+  "modal.io.showSidebar": "サイドバーを表示",
   "modal.io.newChat": "新規チャット",
   "modal.io.theme": "テーマ",
   "modal.keyCombination": "キーの組み合わせ",
@@ -1475,6 +1477,7 @@
   "node.clickToCopyFullId": "クリックしてID全体をコピー",
   "node.createNew": "新規作成",
   "node.customComponentEditingDisabled": "カスタムコンポーネントの編集は無効になっています",
+  "node.editNodeDetails": "ノードの詳細を編集",
   "node.dismiss": "消去",
   "node.dismissWarning": "警告バーを閉じる",
   "node.docsUnavailable": "{{id}} 現在、docsはご利用いただけません。",
@@ -1493,6 +1496,7 @@
   "node.outputCantBeDisplayed": "出力が表示されません",
   "node.replaceConfirmBody": "{{name}} はすでに存在しているようです。 現在のものと置き換えますか、それとも新しいものを作成しますか？",
   "node.runComponent": "コンポーネントを実行",
+  "node.saveNodeDetails": "ノードの詳細を保存",
   "node.stopBuild": "ビルドの停止",
   "node.updateAvailableLabel": "更新が使用可能",
   "node.updateBlockedLabel": "カスタムコンポーネントがブロックされました",
@@ -2063,5 +2067,6 @@
   "voiceAssistant.apiKeyError": "APIキーを確認の上、もう一度お試しください",
   "voiceAssistant.connected": "接続済み",
   "voiceAssistant.connectionError": "接続エラー",
-  "voiceAssistant.connectionFailed": "接続失敗"
+  "voiceAssistant.connectionFailed": "接続失敗",
+  "voiceAssistant.close": "音声アシスタントを閉じる"
 }
